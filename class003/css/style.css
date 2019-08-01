@@ -1,6 +1,6 @@
 .fullpage{
 	background-image: linear-gradient(to right,cyan,black);
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	display: block;
 }
@@ -53,4 +53,15 @@
 }
 .scale:hover{
 	transform: scale(5);
+}
+.fontawesome .fa{
+	font-size: 40px;
+	text-align: center;
+	display: block;
+}
+.wowjs{
+	text-align: center;	
+}
+.wowjs h2{
+	color: #fff;
 }
