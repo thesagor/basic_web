@@ -16,9 +16,25 @@
 		</div>
 		<div class="codingsec">
 			<script>
-				document.write("Hello javascript");
+				function formvalidation(){
+					if (document.formvalid.checkbox.checked) {
+						alert("checked box is clicked");
+					}else{
+						alert("not checked");
+					}
+				}
+
+
+				var a = 20;
+				var b = 30;
+				var c = a+b;	
+				document.write('The sum is:'+ c);		
 			</script>
 
+			<form action="" name="formvalid">
+				<input type="checkbox" name="checkbox">
+				<input type="button" value="click me" onclick="formvalidation()">
+			</form>
 			
 
 
