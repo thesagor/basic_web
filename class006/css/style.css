@@ -1,6 +1,6 @@
 .fullpage{
 	background-image: linear-gradient(to right,cyan,black);
-	height:100vh;	
+	height:auto;	
 	width: 90%;
 	display: block;
 	margin: 0 auto;
@@ -16,7 +16,7 @@
 	color:white;
 }
 .codingsec{
-	height: 77vh;
+	height: auto;
 	width: 100%;
 	padding:2px 10px;
 }
@@ -26,11 +26,4 @@
 	background-color: gray;
 	padding: 20px 02px;
 	text-align: center;
-}
-.progressbar{
-	background-color: blue;
-	height: 100px;
-	width: 75%;
-	border: 1px solid red;
-
 }
