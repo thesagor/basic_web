@@ -27,3 +27,8 @@
 	padding: 20px 02px;
 	text-align: center;
 }
+a.nav-link {
+    color: white !important;
+    text-transform: capitalize;
+    font-family: cursive;
+}
