@@ -1,11 +1,6 @@
 .carousel-item{
 	height: 90vh;
 }
-@media only screen and (max-width: 768px) {
-  .carousel-item {
-    height:auto;
-  }
-}
 .carousel-caption {
     position: absolute;
     /* right: 15%; */
