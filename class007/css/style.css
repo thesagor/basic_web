@@ -36,4 +36,11 @@
 	left: 0;
 	background-color: rgba(0,0,0,.7);
 
+}section.text-center.border.border-primary.p-3{
+	background-color: #fff;
+}
+section.text-center.border.border-primary.p-3:hover {
+    background-color: darkcyan;
+    animation: 3s;
+    color: #fff;
 }
