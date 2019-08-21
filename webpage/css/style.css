@@ -44,4 +44,24 @@ section.text-center.border.border-primary.p-3:hover {
     animation: 3s;
     color: #fff;
 }
+.banner-sec{
+    background-image: url(../images/banner.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.banner-sec{
+    position: relative;
 
+}
+.banner-sec .col-md-12{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.what-we-are .about-img {
+    margin-top: -39px;
+}
