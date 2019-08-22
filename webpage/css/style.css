@@ -1,4 +1,4 @@
-.carousel-item{
+.slider-section .carousel-item{
 	height: 90vh;
 }
 @media only screen and (max-width: 768px) {
@@ -64,4 +64,35 @@ section.text-center.border.border-primary.p-3:hover {
 }
 .what-we-are .about-img {
     margin-top: -39px;
+}
+.carousel-item p {
+    width: 77%;
+    text-align: center;
+    margin: 0 auto;
+}
+.member-sec .card.d-block.w-100 {
+    border: 0px solid;
+}
+.member-sec .col-md-3{
+    padding: 5px;
+}
+.member-sec .card-title {
+    margin-bottom: 0px;
+}
+li.list-group-item.get-it {
+    margin: 0;
+    padd
+}
+li.list-group-item.get-it {
+    position: relative;
+    display: block;
+    padding: 0rem 0rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+li.get-it a{
+    padding: .75rem 0px;
+    border: 0px solid;
+    border-radius: 0px;
 }
