@@ -50,3 +50,11 @@
     height: 275px;
     overflow: hidden;
 }
+.content-sec a {
+    padding: 10px 15px;
+    display: inline-block;
+    background: linear-gradient(darkcyan, black);
+    border-radius: 0px;
+    color: #fff;
+    font-size: 16px;
+}
