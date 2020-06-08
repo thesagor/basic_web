@@ -1,3 +1,5 @@
+
+body{background-color: #000;}
 .slider-section .carousel-item{
 	height: 90vh;
 }
@@ -41,7 +43,7 @@
 }
 section.text-center.border.border-primary.p-3:hover {
     background-color: darkcyan;
-    animation: 3s;
+    transition: .7s;
     color: #fff;
 }
 .banner-sec{
@@ -102,6 +104,9 @@ li.get-it a{
     left: 0;
 
 }
+.about-section, .about-sec, .service-sec, .gallery-sec{
+    background-color: #fff;
+}
 .banner-sec .blog-ban{
     content: '';
     position: absolute;
@@ -112,4 +117,87 @@ li.get-it a{
     background: rgba(25, 42, 86,0.7);
     color:white;
     font-family:sans-serif; 
+}
+@media only screen and (max-width: 480px){
+    #store .col-sm-6{
+        width: 48%;
+    }
+    #store .product li.product {
+        width: 100%;
+    }
+}
+
+i.fa.fa-times {
+    font-size: 26px;
+    color: white;
+    display: block;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 43px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.customer-section{
+    display: flex;
+    word-wrap: wrap;
+    padding: 45px 0px;
+
+}
+.box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #0a0923;
+    width: 300px;
+    margin: 15px auto;
+}
+.box:before{
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1;
+}
+.box:after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1;
+    filter: blur(30px);
+}
+.box .glass{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255,255,255,.1);
+}
+.box .content{
+    padding: 20px;
+    color: #fff;
+}
+
+
+
+
+.box:nth-child(1):before,.box:nth-child(1):after{
+    background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+
+}
+.box:nth-child(2):before,.box:nth-child(2):after{
+    background: linear-gradient(235deg,#001def,#010615,#9100ff);
+
+}
+
+.box:nth-child(3):before,.box:nth-child(3):after{
+    background: linear-gradient(235deg,#bd2130,#010615,#d40093);
+
 }
