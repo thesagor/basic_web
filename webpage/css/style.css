@@ -14,7 +14,7 @@ body{background-color: #000;}
     /* bottom: 20px; */
     /* left: 15%; */
     left: 50%;
-    top: 61%;
+    top: 50%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -118,6 +118,7 @@ li.get-it a{
     color:white;
     font-family:sans-serif; 
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 480px){
     #store .col-sm-6{
         width: 48%;
@@ -200,4 +201,15 @@ i.fa.fa-times {
 .box:nth-child(3):before,.box:nth-child(3):after{
     background: linear-gradient(235deg,#bd2130,#010615,#d40093);
 
+=======
+.carousel-caption {
+    display: block;
+    width: 50%;
+    text-align: right;
+    height: 136px;
+    border-right: 3px solid rebeccapurple;
+    border-left: 3px solid rebeccapurple;
+    text-align: center;
+    vertical-align: middle;
+>>>>>>> 9ff755f531f8747330306fe4ef733450e2846941
 }

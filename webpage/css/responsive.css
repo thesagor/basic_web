@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) {
+
+  img.img-fluid {
+    width: 100%;
+    margin: 2px 0px;
+	}
+
+	strong.text-white.float-left.pt-2 {
+	    float: none !important;
+	    margin: 0 auto;
+	    width: 100%;
+	}
+
+
+
+}
+	@media screen and (max-width: 911px) {
+		.slider-section .carousel-item {
+	    height: auto;
+	}
+
+}
